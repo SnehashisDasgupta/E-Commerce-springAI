@@ -59,9 +59,9 @@ services:
   pgvector:
     image: 'pgvector/pgvector:pg16'
     environment:
-      - 'POSTGRES_DB=SpringBootMVC'
-      - 'POSTGRES_USER=postgres'
-      - 'POSTGRES_PASSWORD=postgres@07'
+      - 'POSTGRES_DB=XXXXXXXXXXXX'
+      - 'POSTGRES_USER=xxxxxx'
+      - 'POSTGRES_PASSWORD=xxxxxxxxxxx'
     labels:
       - "org.springframework.boot.service-connection=postgres"
     ports:
